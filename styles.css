@@ -1,6 +1,60 @@
+body {
+    margin: 0
+}
+
+h1 {
+    font-family: 'Jost', sans-serif;
+    color: white;
+}
+
+p {
+    font-family: 'Jost', sans-serif;
+    color: white;
+}
+
 .wrapper {
     display: flex;
+    flex-direction: column;
+    margin: 0px;
     width: 300px;
     height: 550px;
-    background-color: rgb(137, 182, 137);
+    background-color: #86C45D;
+}
+
+.heroGroup {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+}
+
+.bottomFooterWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.bottomFooterButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+.bottomFooterButtons > .smallButton {
+    font-family: 'Jost', sans-serif;
+    height: 40px;
+    width: 60px;
+    background-color: white;
+    color:  #86C45D;
+}
+
+.ingredientList {
+    display: flex;
+    width: 200px;
+    height: 100px;
 }
