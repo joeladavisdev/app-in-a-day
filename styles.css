@@ -24,6 +24,8 @@ p {
 .heroGroup {
     display: flex;
     justify-content: center;
+    font-family: 'Jost', sans-serif;
+    color: white;
     text-align: center;
     flex-direction: column;
     width: 300px;
@@ -31,24 +33,30 @@ p {
     align-items: center;
 }
 
+.heroGroup img {
+    display: flex;
+    width: 200px;
+
+}
+
 .bottomFooterWrapper {
     display: flex;
     justify-content: center;
-    flex-direction: row;
     align-items: flex-end;
 }
 
 .bottomFooterButtons {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     align-content: space-around;
 }
 
 .bottomFooterButtons > .smallButton {
     font-family: 'Jost', sans-serif;
+    font-size: .75em;
     height: 40px;
-    width: 60px;
+    width: 70px;
     background-color: white;
     color:  #86C45D;
 }
